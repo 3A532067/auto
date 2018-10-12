@@ -6,7 +6,6 @@ $_4site = 'hello world';   //合法，底線開頭
 
 //$4site = 'helli,world'; //不合法，數字開頭
 /*
- *
 Parse error: syntax error, unexpected '4' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in
  */
 
