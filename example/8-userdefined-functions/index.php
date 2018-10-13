@@ -2,12 +2,15 @@
 
 echo '<pre>';
 
-$string = "Hello, world";
-echo strlen($string)."\n";
+function greeting($name = 'Simon', $words = ['Hi']) {
+    $index = rand(0, count($words) - 1);
+    $sentence = $words[$index].', '.$name;
 
-$search = 'world';
-$replace = 'dolly';
-echo str_replace($search, $replace, $string)."\n";
+    return $sentence."\n";
+}
+
+echo greeting('Tom', ['Hola', 'Hello', 'Good Morning']);
+echo greeting();
 
 echo '</pre>';
 
