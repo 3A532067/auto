@@ -8,7 +8,7 @@ foreach(range(1, 10) as $value) {
 
 echo 'include-sample content end'."\n";
 
-?>
+
 /**
  * Created by PhpStorm.
  * User: User
